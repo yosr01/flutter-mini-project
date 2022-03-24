@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:projet1/home_screen.dart';
+import 'package:projet1/medicine_screen.dart';
 import 'package:projet1/profile_screen.dart';
 
 void main() {
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: ProfileScreen(),
+      home: MedicineScreen(),
     );
   }
 }
